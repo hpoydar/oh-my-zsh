@@ -7,3 +7,5 @@ RPS1="${return_code}"
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}‹"
 ZSH_THEME_GIT_PROMPT_SUFFIX="› %{$reset_color%}"
 
+RPROMPT='%{$fg[red]%}$(rvm_ruby_prompt)%{$reset_color%}%'
+
